@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">C346 SA Assignment</string>
+    <string name="why_choose_amazon">Why Choose Amazon</string>
+    <string name="amazon_prime_most_beloved_perks_is_its_free_two_day_shipping">Amazon prime most beloved perks is its free two-day shipping.</string>
+    <string name="the_same_day_even_hourly_shipping">The Same Day, Even Hourly Shipping</string>
+    <string name="amazon_prime_also_offer_same_day_free_delivery_to_those_who_live_in_one_of_the_27_metro_areas_where_the_service_is_offered">Amazon prime also offer same day free delivery to those who live in one of the 27 metro areas where the service is offered.</string>
+    <string name="streaming_video">Streaming Video</string>
+    <string name="amazon_prime_membership_offers_free_access_to_thousands_of_streaming_television_shows_and_movies">Amazon Prime membership offers free access to thousands of streaming television, shows, and movies.</string>
+    <string name="go_to_website">Go To Website</string>
+    <string name="see_itemslist">See ItemsList</string>
+    <string-array name="spinnerProducts">
+        <item>1 month</item>
+        <item>3 months</item>
+        <item>6 months</item>
+    </string-array>
+</resources>

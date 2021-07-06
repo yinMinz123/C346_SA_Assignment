@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal_700"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/why_choose_amazon"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewtext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Free Two days Shipping"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/textViewtext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/amazon_prime_most_beloved_perks_is_its_free_two_day_shipping"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewtext3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/the_same_day_even_hourly_shipping"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/textViewtext4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/amazon_prime_also_offer_same_day_free_delivery_to_those_who_live_in_one_of_the_27_metro_areas_where_the_service_is_offered"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewtext5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/streaming_video"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/textViewtext6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/amazon_prime_membership_offers_free_access_to_thousands_of_streaming_television_shows_and_movies"
+        android:textColor="@color/white"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonWebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:text="@string/go_to_website"
+            app:backgroundTint="#03A9F4" />
+
+        <Button
+            android:id="@+id/buttonList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:layout_weight="1"
+            android:text="@string/see_itemslist"
+            app:backgroundTint="#00BCD4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="375dp"
+            android:layout_height="100dp"
+            android:scrollbarSize="4dp"
+            app:srcCompat="@drawable/logo" />
+    </LinearLayout>
+
+
+</LinearLayout>
